@@ -1,0 +1,16 @@
+/* Make sure nav items are pushed to the right */
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* Optional: Improve spacing and hover color */
+.navbar-nav .nav-link {
+    padding: 8px 15px;
+    color: white !important;
+    size: 30px;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 5px;
+}
