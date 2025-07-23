@@ -2,6 +2,9 @@ import dash
 from dash import dcc, html, Input, Output
 import plotly.express as px
 import pandas as pd
+import streamlit as st
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 # Register page
 dash.register_page(__name__, path="/barriers", name="Barriers to Inclusion")

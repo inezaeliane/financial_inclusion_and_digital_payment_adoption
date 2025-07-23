@@ -4,6 +4,9 @@ import pandas as pd
 import plotly.express as px
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
+import streamlit as st
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 dash.register_page(__name__, path="/clusters", name="Country Segments Map")
 

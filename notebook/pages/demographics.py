@@ -2,6 +2,9 @@ import dash
 from dash import dcc, html, Input, Output
 import pandas as pd
 import plotly.express as px
+import streamlit as st
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
 
 # Register this page with path /demographic
 dash.register_page(__name__, path="/demographics")
